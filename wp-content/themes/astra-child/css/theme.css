@@ -1,8 +1,78 @@
 #productCount.quantite {
+ 
     width: 39px;
     height: 56px;
+
 }
-.vertical-line {
-    border: solid 1px white;
-    height: 95%;
+
+li#menu-item-88 a{
+    background-color:#DC9F96 ;
+    color: white;
+    weight: ;
+}
+ul#ast-hf-menu-1 :hover {
+    background-color: #C02E44;
+    color: white;
+}
+/* ul#ast-hf-menu-1 :target{
+    font-family: Syne;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+ punto kuculmedi
+} */
+#masthead .ast-container {
+    padding-right: 0;
+}
+
+
+/*
+.wp-block-uagb-container {
+    position: relative;
+}
+
+ .wp-block-uagb-container .uagb-block-4f7e2dec::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -30px; 
+    width: 3px; 
+    background-color: white; 
+}
+.wp-block-uagb-container .uagb-block-b135ff38::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -30px; 
+    width: 3px; 
+    background-color:white;
+} */ 
+
+.wp-block-uagb-container.uagb-block-b135ff38 + .wp-block-uagb-container.uagb-block-4f7e2dec::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px; 
+    width: 3px;
+    background-color: white; 
+}
+
+
+
+.wp-block-uagb-container.uagb-block-b135ff38 + .wp-block-uagb-container.uagb-block-4f7e2dec::before {
+    height: 93%; 
+}
+
+#wpcf7-f284-p84-o2, #wpcf7-f308-p84-o1 p {
+    color: white ;
+    font-size:20px;
+    line-height: 24px;
+}
+.wpcf7-form-control-wrap input{
+    border-radius: 7px;
+    height: 71px;
 }
