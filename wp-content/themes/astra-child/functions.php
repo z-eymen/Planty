@@ -46,13 +46,25 @@ function add_separator_between_forms($contact_form) {
 
 add_filter( 'wp_nav_menu_items','add_admin_link', 10, 2 );
 
+// function add_admin_link( $items, $args ) {
+
+//     if (is_user_logged_in() && $args->theme_location == 'primary') {
+
+//         $items .= '<li class="admin-menu"><a href="'. get_admin_url() .'">Admin</a></li>';
+
+//     }
+//     return $items;
+// }
+
 function add_admin_link( $items, $args ) {
+    if (is_user_logged_in() && $args->theme_location == 'primary') {
+        
+        $items_array = explode('</li>', $items);
 
-    if (is_user_logged_in() && $args->theme_location == 'main-header-bar') {
+        $new_item = '<li class="admin-menu"><a href="'. get_admin_url() .'">Admin</a>';
+        array_splice($items_array, 1, 0, $new_item); 
 
-        $items .= '<li><a href="'. get_admin_url() .'">Admin</a></li>';
-
+        $items = implode('</li>', $items_array);
     }
-
     return $items;
 }
