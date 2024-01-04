@@ -33,15 +33,7 @@ ul#ast-hf-menu-1 :hover {
     background-color: #C02E44;
     color: white;
 }
-/* ul#ast-hf-menu-1 :target{
-    font-family: Syne;
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0em;
-    text-align: left;
- punto kuculmedi
-} */
+
 #masthead .ast-container {
     padding-right: 0;
 }
@@ -57,7 +49,7 @@ ul#ast-hf-menu-1 :hover {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: -10px; 
+    left: -30px; 
     width: 1px; 
     background-color: white; 
 }
@@ -65,25 +57,14 @@ ul#ast-hf-menu-1 :hover {
     position: absolute;
     top: 0;
     bottom: 0;
-    right: -10px; 
+    right: -30px; 
     width: 1px; 
     background-color:white;
 } 
 
-/* .wp-block-uagb-container.uagb-block-b135ff38 + .wp-block-uagb-container.uagb-block-4f7e2dec::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: -10px; 
-    width: 1px;
-    background-color: white; 
-} */
-
-
 
 .wp-block-uagb-container.uagb-block-b135ff38 + .wp-block-uagb-container.uagb-block-4f7e2dec::before {
-    height: 93%; 
+    height: 95%; 
 }
 
 #wpcf7-f284-p84-o2, #wpcf7-f308-p84-o1 p {
